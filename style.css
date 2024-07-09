@@ -1,0 +1,183 @@
+body {
+    color: #404040;
+    line-height: 50px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin: 40px;
+    background-color: #F8F7F3;
+}
+
+.section-a {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pic-text {
+    position: absolute;
+    margin-top: 50px;
+}
+
+.section1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 626px;
+}
+
+img {
+    border-top-left-radius: 400px;
+    border-top-right-radius: 400px;
+    width: 473px;
+    height: 580px;
+    margin-bottom: -10px;
+    object-fit: cover;
+    border: 5px groove;
+}
+
+#page-title {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style: italic;
+    color: #222222;
+    padding: 10px 80px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 428px;
+   /* width: 428px;*/
+    position: absolute;
+    bottom: 0px;
+    background-color: #E09D20;
+}
+
+.section2 {
+    background-color: rgb(255, 237, 204, 0.35);
+    box-shadow:
+        0 1px 1px rgba(0, 0, 0, 0.06),
+        0 1px 2px rgba(0, 0, 0, 0.10);
+    border-radius: 40px;
+    padding: 100px 32px 48px 32px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 550px
+}
+
+.subtitle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-style: italic;
+    color: #222222;
+    text-align: center;
+}
+
+.about-me,
+p {
+    text-align: center;
+}
+
+.section-b {
+    display: flex;
+    flex-direction: row;
+align-items: center;
+width: 100%;
+
+   /* align-items: flex-start;*/
+    gap: 40px;
+    justify-content: center;
+    /*flex-wrap: wrap;*/
+}
+
+.box1,
+.box2 {
+    background-color: rgb(255, 237, 204, 0.35);
+    box-shadow:
+        0 1px 1px rgba(0, 0, 0, 0.06),
+        0 1px 2px rgba(0, 0, 0, 0.10);
+    border-radius: 20px;
+    padding: 50px 20px;
+    width: 80%;
+    max-width: 655px;
+   /* height: auto;*/
+   /*height: 90%;
+   max-height: 425px;*/
+    height: 425px;
+    /*width: 655px;*/
+}
+
+.fun-things {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: #222222;
+}
+
+#special-text {
+    color: rgb(36, 145, 15);
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+.games {
+    display: flex;
+    flex-direction: row;
+    gap: 40%;
+}
+
+.books {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.my-fav {
+    background-color: rgb(255, 237, 204, 0.35);
+    box-shadow:
+        0 1px 1px rgba(0, 0, 0, 0.06),
+        0 1px 2px rgba(0, 0, 0, 0.10);
+        height: auto;
+
+    /*height: 514px;*/
+    border-radius: 40px;
+    padding: 48px 32px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#close {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style: italic;
+    color: #222222;
+    padding: 10px 80px;
+    border-radius: 10px;
+    /*width: 428px;*/
+    width: 80%;
+    max-width: 428px;
+    position: absolute;
+    bottom: 0px;
+    background-color: #E09D20;
+    margin-bottom: -40px;
+}
+#body-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 40px;
+}
